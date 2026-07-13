@@ -1,0 +1,106 @@
+category;table;parameter;technology;scenario;period_or_vintage;model_value;unit;source
+Existing assets;ExistingCapacity;capacity;GDSL_01;All;2025;505;kW;Northwest Arctic Borough, Shungnak Community Profile
+Existing assets;ExistingCapacity;capacity;GDSL_02;All;2025;363;kW;Northwest Arctic Borough, Shungnak Community Profile
+Existing assets;ExistingCapacity;capacity;GDSL_03;All;2025;505;kW;Northwest Arctic Borough, Shungnak Community Profile
+Existing assets;ExistingCapacity;capacity;GSOL_01;All;2025;186.3;kW;Northwest Arctic Borough, Shungnak Community Profile
+Existing assets;ExistingCapacity;power capacity;EBATT_01;All;2025;250;kW;Northwest Arctic Borough, Shungnak Community Profile
+Financial assumptions;MetaDataReal;global_discount_rate;;All;;0.10;fraction;Author-defined model assumption
+Financial assumptions;MetaDataReal;default_loan_rate;;All;;0.05;fraction;Author-defined model assumption
+Reliability assumptions;PlanningReserveMargin;reserve margin;;All;2030-2045;0.50;fraction;Author-defined planning assumption
+Technology costs;CostInvest;investment cost;GDSL_01;All;2030-2045;4100;USD/kW;Alaska Energy Authority, Alaska Energy: A First Step Toward Energy Independence
+Technology costs;CostInvest;investment cost;GDSL_02;All;2030-2045;4100;USD/kW;Alaska Energy Authority, Alaska Energy: A First Step Toward Energy Independence
+Technology costs;CostInvest;investment cost;GDSL_03;All;2030-2045;4100;USD/kW;Alaska Energy Authority, Alaska Energy: A First Step Toward Energy Independence
+Technology costs;CostInvest;investment cost;GSOL_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2030;2864.4;USD/kW;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostInvest;investment cost;GSOL_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2035;2089.1;USD/kW;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostInvest;investment cost;GSOL_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2040;1868.9;USD/kW;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostInvest;investment cost;GSOL_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2045;1658.2;USD/kW;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostInvest;investment cost;GWND_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2030;5912.8;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostInvest;investment cost;GWND_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2035;4863.4;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostInvest;investment cost;GWND_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2040;3872.3;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostInvest;investment cost;GWND_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2045;3381.2;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostInvest;investment cost;GHYD_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2030;12210.1;USD/kW;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostInvest;investment cost;GHYD_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2035;11938.8;USD/kW;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostInvest;investment cost;GHYD_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2040;11667.4;USD/kW;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostInvest;investment cost;GHYD_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2045;11396.1;USD/kW;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostInvest;investment cost;EBATT_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2030;2322.1;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostInvest;investment cost;EBATT_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2035;2066.0;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostInvest;investment cost;EBATT_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2040;1823.8;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostInvest;investment cost;EBATT_01;"BAU;BAU_UR;CP_MID;HDP;NZ";2045;1595.5;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostFixed;fixed O&M;GDSL_01;All;2025-2045;82.0;USD/kW-year;Macdonald and Parsons, The Value of Nuclear Microreactors in Providing Heat and Electricity to Alaskan Communities
+Technology costs;CostFixed;fixed O&M;GDSL_02;All;2025-2045;82.0;USD/kW-year;Macdonald and Parsons, The Value of Nuclear Microreactors in Providing Heat and Electricity to Alaskan Communities
+Technology costs;CostFixed;fixed O&M;GDSL_03;All;2025-2045;82.0;USD/kW-year;Macdonald and Parsons, The Value of Nuclear Microreactors in Providing Heat and Electricity to Alaskan Communities
+Technology costs;CostFixed;fixed O&M;GSOL_01;All;2025;46.2;USD/kW-year;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostFixed;fixed O&M;GSOL_01;All;2030;39.6;USD/kW-year;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostFixed;fixed O&M;GSOL_01;All;2035;33.0;USD/kW-year;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostFixed;fixed O&M;GSOL_01;All;2040;31.4;USD/kW-year;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostFixed;fixed O&M;GSOL_01;All;2045;29.7;USD/kW-year;NREL 2024 ATB, Utility PV Class 5
+Technology costs;CostFixed;fixed O&M;GWND_01;All;2025;69.81;USD/kW-year;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostFixed;fixed O&M;GWND_01;All;2030;68.4;USD/kW-year;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostFixed;fixed O&M;GWND_01;All;2035;67.3;USD/kW-year;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostFixed;fixed O&M;GWND_01;All;2040;66.3;USD/kW-year;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostFixed;fixed O&M;GWND_01;All;2045;65.2;USD/kW-year;NREL 2024 ATB, Commercial Distributed Wind Class 1
+Technology costs;CostFixed;fixed O&M;GHYD_01;All;2025;75.0;USD/kW-year;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostFixed;fixed O&M;GHYD_01;All;2030;75.0;USD/kW-year;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostFixed;fixed O&M;GHYD_01;All;2035;75.0;USD/kW-year;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostFixed;fixed O&M;GHYD_01;All;2040;75.0;USD/kW-year;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostFixed;fixed O&M;GHYD_01;All;2045;75.0;USD/kW-year;NREL 2024 ATB, Hydropower NSD 2
+Technology costs;CostFixed;fixed O&M;EBATT_01;All;2025;46.5;USD/kW-year;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostFixed;fixed O&M;EBATT_01;All;2030;39.0;USD/kW-year;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostFixed;fixed O&M;EBATT_01;All;2035;36.0;USD/kW-year;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostFixed;fixed O&M;EBATT_01;All;2040;33.0;USD/kW-year;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology costs;CostFixed;fixed O&M;EBATT_01;All;2045;30.0;USD/kW-year;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;"BAU;BAU_UR;CP_MID;NZ;NZ_SUBSIDY";2030;0.6300;USD/kWh_fuel;Northwest Arctic Borough, Shungnak Community Profile
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;"BAU;BAU_UR;CP_MID;NZ;NZ_SUBSIDY";2035;0.6426;USD/kWh_fuel;Northwest Arctic Borough, Shungnak Community Profile
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;"BAU;BAU_UR;CP_MID;NZ;NZ_SUBSIDY";2040;0.6554;USD/kWh_fuel;Northwest Arctic Borough, Shungnak Community Profile
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;"BAU;BAU_UR;CP_MID;NZ;NZ_SUBSIDY";2045;0.6685;USD/kWh_fuel;Northwest Arctic Borough, Shungnak Community Profile
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;HDP;2030;0.9450;USD/kWh_fuel;Author-defined High Diesel Price sensitivity based on the NWAB fuel-price assumption
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;HDP;2035;0.9639;USD/kWh_fuel;Author-defined High Diesel Price sensitivity based on the NWAB fuel-price assumption
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;HDP;2040;0.9831;USD/kWh_fuel;Author-defined High Diesel Price sensitivity based on the NWAB fuel-price assumption
+Fuel costs;CostVariable;diesel import cost;IMP_DSL;HDP;2045;1.0028;USD/kWh_fuel;Author-defined High Diesel Price sensitivity based on the NWAB fuel-price assumption
+Demand;Demand;annual electricity demand;;All;2030;1741984.94;kWh/year;Alaska Village Electric Cooperative historical load data, with ANTHC project support
+Demand;Demand;annual electricity demand;;All;2035;1830843.67;kWh/year;Alaska Village Electric Cooperative historical load data, with ANTHC project support
+Demand;Demand;annual electricity demand;;All;2040;1924235.10;kWh/year;Alaska Village Electric Cooperative historical load data, with ANTHC project support
+Demand;Demand;annual electricity demand;;All;2045;2022390.43;kWh/year;Alaska Village Electric Cooperative historical load data, with ANTHC project support
+Technology performance;Efficiency;electrical efficiency;"GDSL_01;GDSL_02;GDSL_03";All;2025-2045;0.34;fraction;Author-defined fleet-average assumption informed by Shungnak operating data
+Technology performance;Efficiency;round-trip efficiency;EBATT_01;All;2025-2045;0.85;fraction;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour
+Technology performance;StorageDuration;storage duration;EBATT_01;All;;4;hours;Author-defined Temoa planning convention informed by the NREL ATB 4-hour battery category
+Resource profiles;CapacityFactorTech;minimum/maximum capacity factor;GSOL_01;All;96 season-hour slices;0.0000/0.5072;fraction;"Dobos, PVWatts Version 5 Manual; Shungnak PVWatts model output"
+Resource profiles;CapacityFactorTech;minimum/maximum capacity factor;GWND_01;All;96 season-hour slices;0.0343/0.3314;fraction;Wang et al., WIND Toolkit Long-Term Ensemble Dataset
+Resource profiles;CapacityFactorTech;minimum/maximum capacity factor;GHYD_01;All;96 season-hour slices;0.0770/0.8260;fraction;U.S. Geological Survey, Dahl Creek near Kobuk, Alaska, monitoring location 15743850
+Emissions;EmissionActivity;operational CO2 factor;"GDSL_01;GDSL_02;GDSL_03";All;2025-2045;0.0007421;tCO2/kWh_el;U.S. EPA, 40 CFR Part 98, Subpart C, Table C-1
+Policy assumptions;CostEmission;carbon price;;CP_MID;2030;60;USD/tCO2;Author-defined moderate carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;CP_MID;2035;105;USD/tCO2;Author-defined moderate carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;CP_MID;2040;150;USD/tCO2;Author-defined moderate carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;CP_MID;2045;195;USD/tCO2;Author-defined moderate carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;"NZ;NZ_SUBSIDY";2030;150;USD/tCO2;Author-defined high carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;"NZ;NZ_SUBSIDY";2035;275;USD/tCO2;Author-defined high carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;"NZ;NZ_SUBSIDY";2040;400;USD/tCO2;Author-defined high carbon-price pathway
+Policy assumptions;CostEmission;carbon price;;"NZ;NZ_SUBSIDY";2045;500;USD/tCO2;Author-defined high carbon-price pathway
+Policy assumptions;CostInvest;subsidized investment cost;GSOL_01;NZ_SUBSIDY;2030;2005.08;USD/kW;NREL 2024 ATB, Utility PV Class 5 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GSOL_01;NZ_SUBSIDY;2035;1462.37;USD/kW;NREL 2024 ATB, Utility PV Class 5 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GSOL_01;NZ_SUBSIDY;2040;1308.23;USD/kW;NREL 2024 ATB, Utility PV Class 5 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GSOL_01;NZ_SUBSIDY;2045;1160.74;USD/kW;NREL 2024 ATB, Utility PV Class 5 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GWND_01;NZ_SUBSIDY;2030;4138.96;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GWND_01;NZ_SUBSIDY;2035;3404.38;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GWND_01;NZ_SUBSIDY;2040;2710.61;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GWND_01;NZ_SUBSIDY;2045;2366.84;USD/kW;NREL 2024 ATB, Commercial Distributed Wind Class 1 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GHYD_01;NZ_SUBSIDY;2030;8547.07;USD/kW;NREL 2024 ATB, Hydropower NSD 2 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GHYD_01;NZ_SUBSIDY;2035;8357.16;USD/kW;NREL 2024 ATB, Hydropower NSD 2 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GHYD_01;NZ_SUBSIDY;2040;8167.18;USD/kW;NREL 2024 ATB, Hydropower NSD 2 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;GHYD_01;NZ_SUBSIDY;2045;7977.27;USD/kW;NREL 2024 ATB, Hydropower NSD 2 plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;EBATT_01;NZ_SUBSIDY;2030;1625.47;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;EBATT_01;NZ_SUBSIDY;2035;1446.20;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;EBATT_01;NZ_SUBSIDY;2040;1276.66;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour plus author-defined capital support
+Policy assumptions;CostInvest;subsidized investment cost;EBATT_01;NZ_SUBSIDY;2045;1116.85;USD/kW;NREL 2024 ATB, Utility-Scale Battery Storage, 4-hour plus author-defined capital support
+Deployment constraints;MaxCapacity;total capacity ceiling;GSOL_01;Where technology is available;2030-2045;1000;kW;Northwest Arctic Borough regional planning material and author-defined technical-potential assumption
+Deployment constraints;MaxCapacity;total capacity ceiling;GWND_01;Where technology is available;2030-2045;500;kW;NANA Strategic Energy Plan and author-defined village-scale wind ceiling
+Deployment constraints;MaxCapacity;total capacity ceiling;GHYD_01;Where technology is available;2030-2045;144;kW;NANA Strategic Energy Plan and regional historical hydro concepts
+Deployment constraints;MaxNewCapacity;maximum new capacity per period;GSOL_01;Scenario dependent;2030-2045;250;kW;Author-defined remote-community construction and deployment assumption
+Deployment constraints;MaxNewCapacity;maximum new capacity per period;GWND_01;Scenario dependent;2030-2045;200;kW;Author-defined remote-community construction and deployment assumption
+Deployment constraints;MaxNewCapacity;maximum new capacity per period;GHYD_01;Scenario dependent;2030-2045;144;kW;Author-defined remote-community construction and deployment assumption
+Deployment constraints;MaxNewCapacity;maximum new capacity per period;EBATT_01;Scenario dependent;2030-2045;250;kW;Author-defined remote-community construction and deployment assumption
+Technology performance;LifetimeTech;technical lifetime;"GDSL_01;GDSL_02;GDSL_03";All;;20;years;AEA and author-defined technical-lifetime assumption
+Technology performance;LifetimeTech;technical lifetime;GSOL_01;All;;30;years;NREL ATB and author-defined technical-lifetime assumption
+Technology performance;LifetimeTech;technical lifetime;GWND_01;All;;20;years;NREL ATB and author-defined technical-lifetime assumption
+Technology performance;LifetimeTech;technical lifetime;GHYD_01;All;;100;years;NREL ATB and author-defined long-lived hydropower assumption
+Technology performance;LifetimeTech;technical lifetime;EBATT_01;All;;15;years;NREL ATB and author-defined battery-lifetime assumption
