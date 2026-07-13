@@ -1,0 +1,19 @@
+# Python environments and caches
+.venv/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+
+# Editor and operating-system metadata
+.vscode/
+.DS_Store
+~$*
+
+# Derived model artifacts
+build/
+results/generated/
+*.lp
+
+# Temporary files
+*.tmp
+*.log.tmp

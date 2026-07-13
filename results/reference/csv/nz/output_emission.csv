@@ -1,0 +1,7 @@
+scenario,region,sector,period,emis_comm,tech,vintage,emission
+NZ,shungnak,electric,2030,co2,GDSL_01,2025,80.93964242327999
+NZ,shungnak,electric,2030,co2,GDSL_02,2025,129.383703088366
+NZ,shungnak,electric,2030,co2,GDSL_03,2025,115.98389476650999
+NZ,shungnak,electric,2035,co2,GDSL_01,2025,0.716383363073
+NZ,shungnak,electric,2035,co2,GDSL_02,2025,18.9076082078
+NZ,shungnak,electric,2035,co2,GDSL_03,2025,12.919690534233998

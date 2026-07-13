@@ -1,0 +1,17 @@
+scenario,region,sector,tech,vintage,capacity
+SUBSIDY,shungnak,electric,EBATT_01,2030,250.0
+SUBSIDY,shungnak,electric,EBATT_01,2035,250.0
+SUBSIDY,shungnak,electric,EBATT_01,2040,209.75506
+SUBSIDY,shungnak,electric,EBATT_01,2045,250.0
+SUBSIDY,shungnak,electric,ELECT,2030,328.01563
+SUBSIDY,shungnak,electric,ELECT,2035,343.52988
+SUBSIDY,shungnak,electric,ELECT,2040,324.74814
+SUBSIDY,shungnak,electric,ELECT,2045,341.31356
+SUBSIDY,shungnak,electric,GDSL_02,2045,363.0
+SUBSIDY,shungnak,electric,GHYD_01,2030,144.0
+SUBSIDY,shungnak,electric,GSOL_01,2030,250.0
+SUBSIDY,shungnak,electric,GSOL_01,2035,170.07858
+SUBSIDY,shungnak,electric,GWND_01,2030,200.0
+SUBSIDY,shungnak,electric,GWND_01,2035,200.0
+SUBSIDY,shungnak,electric,GWND_01,2040,57.120462
+SUBSIDY,shungnak,electric,GWND_01,2045,42.879538

@@ -1,0 +1,13 @@
+scenario,region,sector,tech,vintage,capacity
+BAU,shungnak,electric,EBATT_01,2035,127.71106
+BAU,shungnak,electric,EBATT_01,2040,250.0
+BAU,shungnak,electric,EBATT_01,2045,32.082149
+BAU,shungnak,electric,ELECT,2030,319.15034
+BAU,shungnak,electric,ELECT,2035,341.31356
+BAU,shungnak,electric,ELECT,2040,343.52988
+BAU,shungnak,electric,ELECT,2045,332.44827
+BAU,shungnak,electric,GDSL_02,2045,363.0
+BAU,shungnak,electric,GSOL_01,2030,250.0
+BAU,shungnak,electric,GSOL_01,2035,250.0
+BAU,shungnak,electric,GSOL_01,2040,250.0
+BAU,shungnak,electric,GSOL_01,2045,63.7

@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite the archived software release.
+  When the related article becomes available, please cite both the software
+  release and the article.
+title: "Shungnak Community Energy System Model for TEMOA 3.0"
+type: software
+authors:
+  - family-names: "Bardales Urbina"
+    given-names: "José Menelio"
+    email: "jbardal@ncsu.edu"
+    affiliation: >-
+      Department of Civil and Environmental Engineering,
+      North Carolina State University
+repository-code: "https://github.com/josembardales/shungnak-temoa-model"
+url: "https://github.com/josembardales/shungnak-temoa-model"
+license: MIT
+keywords:
+  - "capacity expansion"
+  - "energy system optimization"
+  - "microgrids"
+  - "renewable energy"
+  - "rural Alaska"
+  - "TEMOA"
+  - "reproducible research"
+abstract: >-
+  This repository contains a TEMOA 3.0 capacity expansion model of the
+  Shungnak community energy system in rural Alaska. It represents electricity
+  demand, diesel generation, solar photovoltaic generation, distributed wind,
+  small hydropower, and battery storage from 2025 through 2045. The repository
+  includes six planning scenarios, version controlled SQL inputs, archived
+  reference results, parameter provenance, and scripts for rebuilding,
+  solving, exporting, testing, and scientifically verifying the TEMOA
+  planning results. The separate rolling horizon unit commitment model used
+  in the associated study is outside the scope of this repository.
+preferred-citation:
+  type: article
+  title: "Optimal Sizing of Hybrid Renewable Energy Systems in Rural Alaska"
+  authors:
+    - family-names: "Bardales Urbina"
+      given-names: "José Menelio"
+    - family-names: "Le"
+      given-names: "Hai Van"
+    - family-names: "Kaminsky"
+      given-names: "Jessica"
+    - family-names: "de Queiroz"
+      given-names: "Anderson R."
+  year: 2026
+  status: in-preparation

@@ -1,0 +1,7 @@
+scenario,region,sector,period,emis_comm,tech,vintage,emission
+SUBSIDY,shungnak,electric,2030,co2,GDSL_01,2025,150.99903244886
+SUBSIDY,shungnak,electric,2030,co2,GDSL_02,2025,36.05941850184
+SUBSIDY,shungnak,electric,2030,co2,GDSL_03,2025,139.24878972819
+SUBSIDY,shungnak,electric,2035,co2,GDSL_01,2025,0.712119219368
+SUBSIDY,shungnak,electric,2035,co2,GDSL_02,2025,0.327975636652
+SUBSIDY,shungnak,electric,2035,co2,GDSL_03,2025,0.5985307885969999

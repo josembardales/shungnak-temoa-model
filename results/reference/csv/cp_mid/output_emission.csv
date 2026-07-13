@@ -1,0 +1,7 @@
+scenario,region,sector,period,emis_comm,tech,vintage,emission
+CP_MID,shungnak,electric,2030,co2,GDSL_01,2025,101.54217949917
+CP_MID,shungnak,electric,2030,co2,GDSL_02,2025,61.33295160039
+CP_MID,shungnak,electric,2030,co2,GDSL_03,2025,163.43210943090997
+CP_MID,shungnak,electric,2035,co2,GDSL_01,2025,18.490576957121
+CP_MID,shungnak,electric,2035,co2,GDSL_02,2025,22.162071387074
+CP_MID,shungnak,electric,2035,co2,GDSL_03,2025,1.067995760403

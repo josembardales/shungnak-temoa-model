@@ -1,0 +1,17 @@
+scenario,region,sector,tech,vintage,capacity
+NZ,shungnak,electric,EBATT_01,2030,144.07789
+NZ,shungnak,electric,EBATT_01,2035,250.0
+NZ,shungnak,electric,EBATT_01,2040,211.39556
+NZ,shungnak,electric,EBATT_01,2045,249.43792
+NZ,shungnak,electric,ELECT,2030,332.44827
+NZ,shungnak,electric,ELECT,2035,341.31356
+NZ,shungnak,electric,ELECT,2040,343.52988
+NZ,shungnak,electric,ELECT,2045,319.15034
+NZ,shungnak,electric,GDSL_02,2045,363.0
+NZ,shungnak,electric,GHYD_01,2030,144.0
+NZ,shungnak,electric,GSOL_01,2030,250.0
+NZ,shungnak,electric,GSOL_01,2035,117.60315
+NZ,shungnak,electric,GSOL_01,2045,43.501816
+NZ,shungnak,electric,GWND_01,2030,200.0
+NZ,shungnak,electric,GWND_01,2035,200.0
+NZ,shungnak,electric,GWND_01,2040,100.0

@@ -1,0 +1,57 @@
+23-Apr-26 20:56:35 | main | INFO | *** STARTING TEMOA ***
+23-Apr-26 20:56:35 | temoa_config | INFO | Scenario Name:  BAU_UR
+23-Apr-26 20:56:35 | temoa_config | INFO | Data source:  data_files\shungnak\shungnak.sqlite
+23-Apr-26 20:56:35 | temoa_config | INFO | Data target:  data_files\shungnak\shungnak.sqlite
+23-Apr-26 20:56:35 | temoa_config | INFO | Mode:  PERFECT_FORESIGHT
+23-Apr-26 20:56:36 | hybrid_loader | INFO | Loading data dictionary
+23-Apr-26 20:56:36 | commodity_network_manager | INFO | starting network analysis for region shungnak
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: RegionalGlobalIndices
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_baseload
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_reserve
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_ramping
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_curtailment
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_flex
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_exchange
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_group_names
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_annual
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_variable
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: tech_retirement
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: CapacityFactorProcess
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: TechInputSplit
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: TechInputSplitAverage
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: RenewablePortfolioStandard
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: LoanRate
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinNewCapacity
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxCapacityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinCapacityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinNewCapacityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxNewCapacityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinCapacityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxCapacityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinCapacityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxCapacityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinActivityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxActivityGroup
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinActivityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxActivityShare
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxResource
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxActivity
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinActivity
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MinAnnualCapacityFactor
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: MaxAnnualCapacityFactor
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: GrowthRateMax
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: GrowthRateSeed
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: EmissionLimit
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: LinkedTechs
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: RampUp
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: RampDown
+23-Apr-26 20:56:36 | hybrid_loader | INFO | table, but no (usable) values for param or set: CapacityCredit
+23-Apr-26 20:56:36 | run_actions | INFO | Started creating model instance from data
+23-Apr-26 20:56:36 | run_actions | INFO | Finished creating model instance from data
+23-Apr-26 20:56:36 | run_actions | INFO | model built...  Variables: 16680, Constraints: 30146
+23-Apr-26 20:56:36 | pricing_check | INFO | Started price checking model: unknown
+23-Apr-26 20:56:36 | pricing_check | INFO | Finished Price Checking Build Action
+23-Apr-26 20:56:36 | run_actions | INFO | Starting the solve process using cbc solver on model unknown
+23-Apr-26 20:56:37 | run_actions | INFO | Solve process complete
+23-Apr-26 20:56:37 | run_actions | INFO | The solver reported status as: optimal
+23-Apr-26 20:56:38 | run_actions | INFO | TotalCost value: 9076602.83

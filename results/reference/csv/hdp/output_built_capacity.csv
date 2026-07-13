@@ -1,0 +1,17 @@
+scenario,region,sector,tech,vintage,capacity
+HDP,shungnak,electric,EBATT_01,2030,250.0
+HDP,shungnak,electric,EBATT_01,2035,250.0
+HDP,shungnak,electric,EBATT_01,2040,209.75506
+HDP,shungnak,electric,EBATT_01,2045,250.0
+HDP,shungnak,electric,ELECT,2030,326.8569
+HDP,shungnak,electric,ELECT,2035,321.36666
+HDP,shungnak,electric,ELECT,2040,341.31356
+HDP,shungnak,electric,ELECT,2045,343.52988
+HDP,shungnak,electric,GDSL_02,2045,363.0
+HDP,shungnak,electric,GHYD_01,2030,144.0
+HDP,shungnak,electric,GSOL_01,2030,250.0
+HDP,shungnak,electric,GSOL_01,2035,170.07858
+HDP,shungnak,electric,GWND_01,2030,200.0
+HDP,shungnak,electric,GWND_01,2035,200.0
+HDP,shungnak,electric,GWND_01,2040,57.120462
+HDP,shungnak,electric,GWND_01,2045,42.879538

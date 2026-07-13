@@ -1,0 +1,17 @@
+scenario,region,sector,tech,vintage,capacity
+CP_MID,shungnak,electric,EBATT_01,2030,116.205
+CP_MID,shungnak,electric,EBATT_01,2035,250.0
+CP_MID,shungnak,electric,EBATT_01,2040,241.13809
+CP_MID,shungnak,electric,EBATT_01,2045,219.69539
+CP_MID,shungnak,electric,ELECT,2030,328.01563
+CP_MID,shungnak,electric,ELECT,2035,343.52988
+CP_MID,shungnak,electric,ELECT,2040,326.8569
+CP_MID,shungnak,electric,ELECT,2045,341.31356
+CP_MID,shungnak,electric,GDSL_02,2045,363.0
+CP_MID,shungnak,electric,GHYD_01,2030,144.0
+CP_MID,shungnak,electric,GSOL_01,2030,250.0
+CP_MID,shungnak,electric,GSOL_01,2035,102.04584
+CP_MID,shungnak,electric,GSOL_01,2045,59.059128
+CP_MID,shungnak,electric,GWND_01,2030,200.0
+CP_MID,shungnak,electric,GWND_01,2035,200.0
+CP_MID,shungnak,electric,GWND_01,2040,100.0
