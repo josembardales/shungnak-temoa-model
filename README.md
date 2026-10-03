@@ -6,7 +6,7 @@ Public research repository supporting **Optimal sizing of hybrid renewable energ
 
 Bardales, J. M., Le, H. V., Kaminsky, J., & de Queiroz, A. R. (2026). *Optimal sizing of hybrid renewable energy systems in rural Alaska*. Journal of Cleaner Production, 576, 149361. https://doi.org/10.1016/j.jclepro.2026.149361
 
-**[Published article (DOI)](https://doi.org/10.1016/j.jclepro.2026.149361)** · [Elsevier author-share link](https://authors.elsevier.com/a/1nn2k3QCo9uRBH)
+**[Published article (DOI)](https://doi.org/10.1016/j.jclepro.2026.149361)**
 
 ## Research overview
 
