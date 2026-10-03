@@ -6,7 +6,7 @@ This repository contains the Temoa capacity expansion model developed for the Sh
 
 Temoa identifies the least cost combination of existing and new technologies that satisfies electricity demand under the technical, resource, economic, and policy assumptions defined for each scenario. The model is formulated as a linear program in Pyomo and was solved with the CBC solver.
 
-The associated study also uses a separate rolling horizon unit commitment model to screen selected portfolios under chronological operating constraints. That operational model is outside the scope of this repository. The files here reproduce the Temoa planning component and its archived planning results.
+The [published study](https://doi.org/10.1016/j.jclepro.2026.149361) also uses a separate rolling horizon unit commitment model to screen selected portfolios under chronological operating constraints. That operational model is outside the scope of this repository. The files here reproduce the Temoa planning component and its archived planning results.
 
 The authoritative editable model inputs are the SQL files under:
 
@@ -41,7 +41,7 @@ Temoa assumes perfect foresight within each scenario. Demand growth, technology 
 
 The demand trajectory is based on community load information provided through the Alaska Village Electric Cooperative and the Alaska Native Tribal Health Consortium.
 
-The manuscript reports a 2025 baseline demand of approximately 1,657.4 MWh. The SQL demand table contains the following future period values, based on 1% annual growth:
+The published article reports a 2025 baseline demand of approximately 1,657.4 MWh. The SQL demand table contains the following future period values, based on 1% annual growth:
 
 | Period | Annual electricity demand |
 |---:|---:|
@@ -175,7 +175,7 @@ The Temoa SQL inputs represent `EBATT_01` using:
 
 The 4 hour model duration does not equal the physical ratio of 384 kWh divided by 250 kW. It should therefore be interpreted as the storage duration convention used in the Temoa planning representation and for candidate additions, rather than as an exact reconstruction of the existing equipment energy rating.
 
-For reproduction of this repository, the authoritative Temoa efficiency value is 0.85. The 0.95 round trip efficiency reported in the associated manuscript does not match the current Temoa SQL inputs and should not be substituted into this repository without creating a different model case.
+For reproduction of this repository, the authoritative Temoa efficiency value is 0.85. The 0.95 round trip efficiency reported in the published article does not match the current Temoa SQL inputs and should not be substituted into this repository without creating a different model case.
 
 The Temoa representation does not include battery degradation, temperature dependent performance, detailed charge and discharge power curves, or chronological state of charge continuity across the full year. The separate operational model used in the associated study addresses additional chronological storage behavior but is not included here.
 

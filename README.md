@@ -1,5 +1,13 @@
 # Shungnak Community Energy System Model for TEMOA 3.0
 
+Public research repository supporting **Optimal sizing of hybrid renewable energy systems in rural Alaska**, published in the *Journal of Cleaner Production*.
+
+## Publication
+
+Bardales, J. M., Le, H. V., Kaminsky, J., & de Queiroz, A. R. (2026). *Optimal sizing of hybrid renewable energy systems in rural Alaska*. Journal of Cleaner Production, 576, 149361. https://doi.org/10.1016/j.jclepro.2026.149361
+
+**[Published article (DOI)](https://doi.org/10.1016/j.jclepro.2026.149361)** · [Elsevier author-share link](https://authors.elsevier.com/a/1nn2k3QCo9uRBH)
+
 ## Research overview
 
 This repository contains a scenario based capacity expansion model of the Shungnak community energy system using TEMOA 3.0. It represents electricity demand, diesel generation, solar photovoltaic generation, distributed wind, small hydropower, and battery storage.
@@ -10,13 +18,9 @@ The scenarios are intended for comparative planning analysis rather than predict
 
 ## Repository scope
 
-This repository reproduces the TEMOA capacity expansion component of the associated study.
+This repository reproduces the TEMOA capacity expansion component of the published study, including its model inputs, scenario configurations, automation scripts, documentation, and archived planning results.
 
 The study also uses a separate rolling horizon unit commitment model to screen selected portfolios under chronological operating constraints. That operational model, its hourly dispatch outputs, and its unit commitment results are not reproduced by this repository.
-
-## Related publication
-
-This repository supports a manuscript in preparation. The final citation and DOI will be added when available.
 
 ## Reproducibility status
 
@@ -59,20 +63,25 @@ The scenarios represent alternative planning assumptions and policy pathways rat
 ## Repository contents
 
 ```text
-configs/                         TEMOA scenario configuration files
-docs/                            Model, scenario, and reproducibility documentation
-model_inputs/sql/                Authoritative editable model inputs
-provenance/data_sources.csv      Concise parameter source inventory
-results/reference/databases/     Archived solved benchmark databases
-results/reference/csv/           Reference result exports
-scripts/                         Build, run, export, and verification tools
-tests/                           Repository tests
-requirements-dev.txt             Testing dependency
-CITATION.cff                     Citation metadata
-LICENSE                          Repository license and scope notice
+configs/                                    TEMOA scenario configuration files
+docs/                                       Model, scenario, and reproducibility documentation
+model_inputs/sql/                           Authoritative editable model inputs
+provenance/data_sources.csv                 Concise parameter source inventory
+results/reference/databases/                Archived solved benchmark databases
+results/reference/csv/                      Reference result exports
+results/reference/xlsx/                     Archived Excel result exports
+results/reference/pyam/                     Archived pyam-format Excel exports
+results/reference/logs/                     Archived TEMOA run logs
+results/reference/verification_summary.csv  Archived verification summary
+results/diagnostics/commodity_networks/     HTML commodity network diagrams
+scripts/                                    Build, run, export, and verification tools
+tests/                                      Repository tests
+requirements-dev.txt                        Testing dependency
+CITATION.cff                                Citation metadata
+LICENSE                                     Repository license and scope notice
 
-build/input_databases/           Locally generated input databases
-results/generated/               Locally generated TEMOA results and logs
+build/input_databases/                      Locally generated input databases
+results/generated/                          Locally generated TEMOA results and logs
 ```
 
 The SQL files under `model_inputs/sql/` are the authoritative editable inputs. The SQLite files under `build/input_databases/` are derived from those SQL files.
@@ -192,9 +201,24 @@ Results should therefore be interpreted as conditional planning outcomes for the
 
 ## Citation
 
-[CITATION.cff](CITATION.cff) provides machine readable citation metadata. The final author list, publication citation, repository version, and DOI will be added when confirmed.
+If you use this repository or the models/data associated with this work, please cite:
 
-Once available, users should cite both the related publication and the archived repository release.
+Bardales, J. M., Le, H. V., Kaminsky, J., & de Queiroz, A. R. (2026). Optimal sizing of hybrid renewable energy systems in rural Alaska. *Journal of Cleaner Production, 576*, 149361. https://doi.org/10.1016/j.jclepro.2026.149361
+
+```bibtex
+@article{bardales2026optimal,
+  title={Optimal sizing of hybrid renewable energy systems in rural {Alaska}},
+  author={Bardales, Jos{\'e} M. and Le, Hai Van and Kaminsky, Jessica and de Queiroz, Anderson R.},
+  journal={Journal of Cleaner Production},
+  volume={576},
+  pages={149361},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.jclepro.2026.149361}
+}
+```
+
+[CITATION.cff](CITATION.cff) provides machine-readable repository metadata with the published article as the preferred citation. To identify the exact inputs and scripts used in your analysis, also record the repository URL and commit hash.
 
 ## License
 

@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: >-
-  If you use this repository, please cite the archived software release.
-  When the related article becomes available, please cite both the software
-  release and the article.
+  If you use this repository or its associated models/data, please cite the
+  published article in preferred-citation. Also record the repository URL
+  and commit hash used in your analysis.
 title: "Shungnak Community Energy System Model for TEMOA 3.0"
 type: software
 authors:
   - family-names: "Bardales Urbina"
     given-names: "José Menelio"
+    orcid: "https://orcid.org/0009-0004-9461-2450"
     email: "jbardal@ncsu.edu"
     affiliation: >-
       Department of Civil and Environmental Engineering,
@@ -32,18 +33,25 @@ abstract: >-
   reference results, parameter provenance, and scripts for rebuilding,
   solving, exporting, testing, and scientifically verifying the TEMOA
   planning results. The separate rolling horizon unit commitment model used
-  in the associated study is outside the scope of this repository.
+  in the published study is outside the scope of this repository.
 preferred-citation:
   type: article
-  title: "Optimal Sizing of Hybrid Renewable Energy Systems in Rural Alaska"
+  title: "Optimal sizing of hybrid renewable energy systems in rural Alaska"
   authors:
-    - family-names: "Bardales Urbina"
-      given-names: "José Menelio"
+    - family-names: "Bardales"
+      given-names: "José M."
+      orcid: "https://orcid.org/0009-0004-9461-2450"
     - family-names: "Le"
       given-names: "Hai Van"
     - family-names: "Kaminsky"
       given-names: "Jessica"
     - family-names: "de Queiroz"
       given-names: "Anderson R."
+  journal: "Journal of Cleaner Production"
+  volume: 576
+  start: 149361 # Article number; the journal uses article numbers instead of page ranges.
   year: 2026
-  status: in-preparation
+  publisher:
+    name: "Elsevier"
+  doi: "10.1016/j.jclepro.2026.149361"
+  url: "https://doi.org/10.1016/j.jclepro.2026.149361"

@@ -4,7 +4,7 @@
 
 This document explains how to rebuild, solve, verify, and inspect the Shungnak Temoa capacity expansion model contained in this repository.
 
-The associated study uses two modeling layers:
+The [published study](https://doi.org/10.1016/j.jclepro.2026.149361) uses two modeling layers:
 
 1. Temoa for long term capacity expansion and investment planning.
 2. A separate rolling horizon unit commitment model for hourly operational screening.
@@ -55,3 +55,16 @@ definitions.py
 temoa/
 temoa/version_information.py
 temoa/temoa_model/
+```
+
+## 3. Workflow
+
+See the README's [Quick start](../README.md#quick-start) and [Reproducing the model](../README.md#reproducing-the-model) sections for the commands to build input databases, run scenarios, verify results, run repository tests, and export archived results. Run these commands from the repository root.
+
+## 4. Verification scope
+
+Scientific verification compares aggregate planning quantities, including objective values, capacities, costs, emissions, diesel and total renewable generation, storage totals, and demand served. The metric-specific absolute and relative tolerances are defined in [scripts/verify_results.py](../scripts/verify_results.py).
+
+Strict verification compares complete output rows and is intended for diagnostics. Alternative optimal solutions may differ in technology, season, or time slice allocations while satisfying the scientific checks. A scientific pass does not establish identical detailed dispatch or validate the separate unit commitment model.
+
+The [archived verification summary](../results/reference/verification_summary.csv) records the prior six-scenario comparison. See [Verify the results](../README.md#verify-the-results) for the verification commands.

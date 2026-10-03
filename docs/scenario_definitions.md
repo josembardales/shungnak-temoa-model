@@ -37,9 +37,9 @@ Detailed common assumptions are documented in `docs/model_documentation.md`.
 
 ## 3. Scenario label mapping
 
-The repository, Temoa output databases, and manuscript use slightly different naming conventions for some scenarios.
+The repository, Temoa output databases, and [published article](https://doi.org/10.1016/j.jclepro.2026.149361) use slightly different naming conventions for some scenarios.
 
-| Repository label | Internal Temoa label | Manuscript label |
+| Repository label | Internal Temoa label | Published article label |
 |---|---|---|
 | `BAU` | `BAU` | BAU |
 | `BAU_UR` | `BAU_UR` | BAU UR or Unrestrained Reference |
